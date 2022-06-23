@@ -192,6 +192,10 @@ header {
   background-color: var(--bg-color-light);
 }
 
+li a {
+  transition: all 0.2s ease-in-out;
+}
+
 header .container {
   margin: 0 var(--spacing-16px);
   padding: 0 var(--spacing-8px);
@@ -489,7 +493,12 @@ input {
 }
 
 .portfolio-card li a {
-  color: #111216;
+  color: var(--text-color-base);
+  transition: all 0.3 ease-in-out;
+}
+
+.dark .portfolio-card li a {
+  color: white;
 }
 
 .portfolio-card img {
