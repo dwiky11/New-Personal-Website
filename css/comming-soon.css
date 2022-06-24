@@ -81,6 +81,10 @@
     gap: var(--spacing-32px)
 }
 
+.container {
+    padding-bottom: var(--spacing-48px);
+}
+
 
 @media screen and (min-width: 768px) {
     :root {
@@ -120,7 +124,7 @@
         width: 45%;
         height: max-content;
     }
-    
+
     body {
         overflow-y: hidden; /* Hide vertical scrollbar */
         overflow-x: hidden; /* Hide horizontal scrollbar */
