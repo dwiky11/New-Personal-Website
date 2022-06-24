@@ -4,7 +4,10 @@ const toggle = document.querySelector("#toggle");
 const sunIcon = document.querySelector(".toggle .bxs-sun");
 const moonIcon = document.querySelector(".toggle .bx-moon");
 const body = document.body
+
+
 let lastScroll = 0;
+
 
 
 window.addEventListener("scroll", () => {
@@ -28,6 +31,15 @@ window.addEventListener("scroll", () => {
 });
 
 
+window.addEventListener("scroll", () => {
+	if (window.pageYOffset > 100) {
+		toTop.classList.add("active");
+	} else {
+		toTop.classList.remove("active")
+	}
+});
+
+
 menu.addEventListener('click',() => {
     nav.classList.toggle('slide');
 });
@@ -40,3 +52,8 @@ toggle.addEventListener("change", () => {
     moonIcon.className = moonIcon.className == "bx bxs-moon" ? "bx bx-moon" : "bx bxs-moon";
 
 });
+
+
+
+
+

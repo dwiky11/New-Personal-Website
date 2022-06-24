@@ -185,6 +185,28 @@ body {
 }
 
 
+#myBtn {
+  display: none;
+  position: fixed;
+  z-index: 99;
+  font-size: 32px;
+  line-height: 24px;
+  border-radius: 100%;
+  border: none;
+  width: 48px;
+  height: 48px;
+  background: var(--primary-color-base);
+  color: white;
+  right: 32px;
+  bottom: 32px;
+  cursor: pointer;
+}
+
+#myBtn:hover {
+  background: var(--primary-color-dark);
+}
+
+
 /* ==========  Header  ========== */
 
 header {
