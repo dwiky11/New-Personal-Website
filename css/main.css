@@ -187,8 +187,8 @@ body {
 
 .scrolltop {
   position: fixed;
-  font-size: 32px;
-  line-height: 24px;
+  font-size: 24px;
+  line-height: 12px;
   z-index: 99999;
   border-radius: 100%;
   padding: 8px;
@@ -208,6 +208,7 @@ body {
 
 .show-scroll{
   visibility: visible;
+
 }
 
 
@@ -816,5 +817,9 @@ footer {
   .social_media ul li {
     list-style: none;
     width: 100%;
+  }
+
+  .scrolltop {
+    font-size: 32px;
   }
 }
