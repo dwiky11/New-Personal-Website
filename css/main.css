@@ -185,25 +185,29 @@ body {
 }
 
 
-#myBtn {
-  display: none;
+.scrolltop {
   position: fixed;
-  z-index: 99;
   font-size: 32px;
   line-height: 24px;
+  z-index: 99999;
   border-radius: 100%;
-  border: none;
-  width: 48px;
-  height: 48px;
+  padding: 8px;
+  border:  none;
   background: var(--primary-color-base);
   color: white;
-  right: 32px;
   bottom: 32px;
+  right: 32px;
   cursor: pointer;
+  visibility: hidden;
+  transition: 0.4s;
 }
 
-#myBtn:hover {
+.scrolltop:hover {
   background: var(--primary-color-dark);
+}
+
+.show-scroll{
+  visibility: visible;
 }
 
 
