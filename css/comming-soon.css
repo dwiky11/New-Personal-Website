@@ -1,0 +1,131 @@
+
+:root {
+    --header-height: 3rem;
+  
+    /* ============  Color  ============ */
+  
+    --primary-color-dark: #0943d4;
+    --primary-color-base: #0a4df4;
+    --primary-color-light: #4477f7;
+    --primary-color-light1: #b7cbfc;
+    --primary-color-light2: #f0f4fe;
+  
+    --text-color-base: #111826;
+    --text-color-light: #4a4f5a;
+    --text-color-light1: #82868d;
+    --text-color-light2: #bbbdc1;
+    --text-color-light3: #eaeaeb;
+  
+    --bg-color-light: #ffffff;
+    --bg-color-dark: #111216;
+  
+    /* ============  Font Size & Line Height - Mobile  ============ */
+  
+    --h1-font-size: 2.25rem;
+    --h2-font-size: 2rem;
+    --h3-font-size: 1.75rem;
+    --h4-font-size: 1.5rem;
+    --h5-font-size: 1.25rem;
+    --h6-font-size: 1.125rem;
+    --body-1-size: 1rem;
+    --body-2-size: 0.875rem;
+    --small-size: 0.75rem;
+  
+    --line-height-h1: 2.75rem;
+    --line-height-h2: 2.5rem;
+    --line-height-h3: 2.25rem;
+    --line-height-h4: 2rem;
+    --line-height-h5: 1.75rem;
+    --line-height-h6: 1.5rem;
+    --line-height-body-1: 1.5rem;
+    --line-height-body-2: 1.25rem;
+    --line-height-small: 1rem;
+  
+    /* ============  Font Weight  ============ */
+  
+    --font-regular: 400;
+    --font-medium: 500;
+    --font-semi-bold: 600;
+    --font-bold: 700;
+  
+    /* ============  Spacing  ============ */
+  
+    --spacing-4px: 0.25rem;
+    --spacing-8px: 0.5rem;
+    --spacing-12px: 0.75rem;
+    --spacing-16px: 1rem;
+    --spacing-20px: 1.25rem;
+    --spacing-24px: 1.5rem;
+    --spacing-32px: 2rem;
+    --spacing-40px: 2.5rem;
+    --spacing-48px: 3rem;
+    --spacing-64px: 4rem;
+    --spacing-80px: 5rem;
+    --spacing-84px: 5.25rem;
+    --spacing-96px: 6rem;
+  }
+
+  .hero{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+
+
+
+.hero-text {
+    text-align: center;
+    margin:var(--spacing-48px) 0;
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-32px)
+}
+
+
+@media screen and (min-width: 768px) {
+    :root {
+      /* ============  Font Size & Line Height - Web  ============ */
+  
+      --h1-font-size: 3rem;
+      --h2-font-size: 2.25rem;
+      --h3-font-size: 2rem;
+      --h4-font-size: 1.75rem;
+      --h5-font-size: 1.5rem;
+      --h6-font-size: 1.25rem;
+      --body-1-size: 1rem;
+      --body-2-size: 0.75rem;
+      --small-1-size: 0.875rem;
+      --small-2-size: 0.75rem;
+  
+      --line-height-h1: 4rem;
+      --line-height-h2: 2.75rem;
+      --line-height-h3: 2.5rem;
+      --line-height-h4: 2rem;
+      --line-height-h5: 1.75rem;
+      --line-height-body-1: 1.5rem;
+      --line-height-body-2: 1.5rem;
+      --line-height-small: 1rem;
+    }
+
+    .hero {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .hero-text {
+        text-align: left;
+    }
+
+    .hero img {
+        width: 45%;
+        height: max-content;
+    }
+    
+    body {
+        overflow-y: hidden; /* Hide vertical scrollbar */
+        overflow-x: hidden; /* Hide horizontal scrollbar */
+      }
+
+
+
+}
