@@ -72,7 +72,6 @@
   }
 
 
-
 .hero-text {
     text-align: center;
     margin:var(--spacing-48px) 0;
@@ -83,6 +82,11 @@
 
 .container {
     padding-bottom: var(--spacing-48px);
+}
+
+h6 {
+    color: var(--text-color-light);
+    font-weight: var(--font-regular);
 }
 
 
@@ -114,7 +118,14 @@
     .hero {
         display: flex;
         flex-direction: row;
+        height: 100vh;
     }
+
+    body {
+        position: fixed;
+        height: 100vh;
+        overflow: hidden;
+      }
 
     .hero-text {
         text-align: left;
@@ -125,10 +136,6 @@
         height: max-content;
     }
 
-    body {
-        overflow-y: hidden; /* Hide vertical scrollbar */
-        overflow-x: hidden; /* Hide horizontal scrollbar */
-      }
 
 
 
