@@ -72,6 +72,10 @@
   --spacing-96px: 6rem;
 }
 
+img {
+  border-radius: 8px;
+}
+
 section {
     transition: all 0.2s ease-in-out;
 }
