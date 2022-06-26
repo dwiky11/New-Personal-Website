@@ -709,7 +709,6 @@ footer {
     padding: 0;
     align-items: center;
     gap: 24px;
-    overflow: hidden;
   }
 
   nav ul li a:hover {
