@@ -547,7 +547,7 @@ input {
 
 .dark .portfolio-card {
   background: #1d212a;
-  border: var(--text-color-light);
+  border-color: #454545;
   transition: transform .25s, visibility .25s ease-in;
 }
 
@@ -574,11 +574,8 @@ input {
   transition: all 0.2s ease-in-out;
 }
 
-/*
-
-*/
 .dark .portfolio-card:hover {
-  box-shadow: 0px 6px 32px rgba(0, 0, 0, 0.966);
+  box-shadow: 0px 6px 34px rgba(28, 59, 164, 0.22);
 }
 
 /* ==========  Footer  =========== */
