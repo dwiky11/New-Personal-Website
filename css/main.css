@@ -151,12 +151,12 @@ img {
 }
 
 body {
-  margin: 0;
+  margin: 0 auto;
   font-size: var(--body--size);
   background-color: white;
   color: var(--text-color-base);
   transition: all 0.2s ease-in-out;
-  width: 100%;
+  max-width: 1440px;
 }
 
 .dark {
