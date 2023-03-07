@@ -79,6 +79,9 @@ a {
   --spacing-80px: 5rem;
   --spacing-84px: 5.25rem;
   --spacing-96px: 6rem;
+}
+
+:root.dark{
   background-color: var(--bg-color-dark);
 }
 
