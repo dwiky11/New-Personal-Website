@@ -79,10 +79,7 @@ a {
   --spacing-80px: 5rem;
   --spacing-84px: 5.25rem;
   --spacing-96px: 6rem;
-}
 
-:root.dark{
-  background-color: var(--bg-color-dark);
 }
 
 /* ============  Typo Settings  ============ */
@@ -147,6 +144,10 @@ html {
   width: 100%;
   color: var(--text-color-base);
   background-color: var(--bg-color-light);
+}
+
+html.dark{
+  background-color: var(--bg-color-dark);
 }
 
 img {
