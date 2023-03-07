@@ -6,6 +6,7 @@
   list-style: none;
 }
 
+
 a {
   color: var(--text-color-base);
   transition: all 0.2s ease-in-out;
@@ -80,6 +81,8 @@ a {
   --spacing-84px: 5.25rem;
   --spacing-96px: 6rem;
 
+  
+
 }
 
 /* ============  Typo Settings  ============ */
@@ -146,9 +149,10 @@ html {
   background-color: var(--bg-color-light);
 }
 
-html.dark{
+html.dark {
   background-color: var(--bg-color-dark);
 }
+
 
 img {
   width: 100%;
@@ -164,9 +168,6 @@ body {
   max-width: 1440px;
 }
 
-*.dark{
-  background-color: var(--bg-color-dark);
-}
 
 .dark {
   background-color: var(--bg-color-dark);
