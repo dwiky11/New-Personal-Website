@@ -16,6 +16,7 @@ a {
   color: white;
 }
 
+
 :root {
   --header-height: 3rem;
 
@@ -80,9 +81,6 @@ a {
   --spacing-80px: 5rem;
   --spacing-84px: 5.25rem;
   --spacing-96px: 6rem;
-
-  
-
 }
 
 /* ============  Typo Settings  ============ */
@@ -149,10 +147,6 @@ html {
   background-color: var(--bg-color-light);
 }
 
-html.dark {
-  background-color: var(--bg-color-dark);
-}
-
 
 img {
   width: 100%;
@@ -165,7 +159,6 @@ body {
   background-color: white;
   color: var(--text-color-base);
   transition: all 0.2s ease-in-out;
-  max-width: 1440px;
 }
 
 
