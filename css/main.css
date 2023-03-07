@@ -6,10 +6,6 @@
   list-style: none;
 }
 
- *.dark{
-  background-color:#111216 ;
-}
-
 a {
   color: var(--text-color-base);
   transition: all 0.2s ease-in-out;
@@ -161,6 +157,10 @@ body {
   color: var(--text-color-base);
   transition: all 0.2s ease-in-out;
   max-width: 1440px;
+}
+
+*.dark{
+  background-color: var(--bg-color-dark);
 }
 
 .dark {
